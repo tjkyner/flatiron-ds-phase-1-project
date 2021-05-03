@@ -9,6 +9,17 @@ The goal of this project is to conduct an exploratory data analysis in response 
 >Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
 
 ## Repository Structure
+```
+├── data/
+│    ├── cleaned/   # Cleaned csv files from `preprocessing.ipynb`
+│    └── ...        # The raw csv files are housed directly under the `data` directory
+├── images/         # Contains exported images of plots and illustrations used in the presentation
+├── notebooks/      # Contains the `prepocessing.ipynb` and `analysis.ipynb` notebooks
+├── submissions/    # Contains files used for the project submissions (presentation.pdf, etc.)
+├── .gitignore
+├── LICENSE
+└── README.md
+```
 
 ## Data Preprocessing
 Cursory data exploration and manipulation occurs in `preprocessing.ipynb`. The information included in each of the available data files is reviewed before settling on several for further exploration:
@@ -35,7 +46,7 @@ This notebook revolves around the asking and answering of questions regarding th
 ![Median Return on Investment (ROI) by Release Month](/images/median_roi_month.png)
 
 ### Question 5: Does the runtime of a movie in the Mystery genre affect its ROI?
-![Mystery Movies: Return on Investment (ROI) vs Runtime](mystery_runtime_roi.png)
+![Mystery Movies: Return on Investment (ROI) vs Runtime](/images/mystery_runtime_roi.png)
 
 ## Recommendations
 Based on the data explored thus far, Microsoft Studios should produce a movie in the **Mystery genre** with a runtime **under 2 hours** and an anticipated release date in **May or July**.
