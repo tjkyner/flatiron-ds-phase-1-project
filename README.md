@@ -4,7 +4,7 @@ Student pace: Full time \
 Instructor: Abhineet Kulkarni \
 Cohort: 040521
 
-## The Task
+## The Business Problem
 The goal of this project is to conduct an exploratory data analysis in response to the following business problem:
 >Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
 
@@ -48,8 +48,13 @@ This notebook revolves around the asking and answering of questions regarding th
 ### Question 5: Does the runtime of a movie in the Mystery genre affect its ROI?
 ![Mystery Movies: Return on Investment (ROI) vs Runtime](/images/mystery_runtime_roi.png)
 
-## Recommendations
-Based on the data explored thus far, Microsoft Studios should produce a movie in the **Mystery genre** with a runtime **under 2 hours** and an anticipated release date in **May or July**.
+## Conclusion & Recommendation
+To maximize the potential return on investment, Microsoft Studios should produce a movie with the following characteristics:
+- **Mystery genre**
+- Runtime **under 2 hours** 
+- Released in **May or July**
+
+The data supports this recommendation since the Mystery genre has the highest median ROI of any genre, is increasing in popularity, and is most profitable for runtimes under two hours. Furthermore, targeting a release date in May or July increases the probability of success given the higher median ROIs for movies released in those two months.
 
 ### Next Steps
 Next steps in the analysis include exploring what makes a good Mystery movie and answering the following questions:
